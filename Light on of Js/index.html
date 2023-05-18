@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light on off</title>
+</head>
+<style>
+    body{
+        background-color:lightcyan;
+    }
+    button{
+        color: black;
+        background-color: aqua;
+        height: 40px;
+        width: 160px;
+        
+    }
+    h1{
+        text-align: center;
+        color: black;
+    }
+    div{
+        margin-top: 120px;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Can you turn on the light</h1>
+<div> 
+    <button onclick="document.getElementById('Myimg').src='light_on.gif' ">Turn on the light</button>
+    <img id="Myimg" src="light_off.gif" alt="gfhty">
+    <button onclick="document.getElementById('Myimg').src='light_off.gif' ">turn off the light</button>
+</div>
+</body>
+</html>
